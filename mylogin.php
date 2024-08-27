@@ -7,7 +7,7 @@ if ($_SESSION['login']==false) {
 if ($_SESSION['login'] == 'login') {
         echo "
     <script>
-     window.location.href ='adminasset.php';
+     window.location.href ='adminasset/dashboard.php';
     </script>";
 }
 $password = "";
